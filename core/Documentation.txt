@@ -1,13 +1,10 @@
 ## steps to run this project
 1]  install python on your system
 
-# create virtual environment using below command
-2]  py -m venv {environment_name}
+2] cd core                                            # change the directory
 
-# Enter into env. 
-3]  environment_name/Scripts/activate
+3]  pip install -r requirements.txt                   # install all packages requires to run this project
 
-# install all packages requires to run this project
-4]  pip install -r requirements.txt
+4]  python manage.py runserver                        # To run project   
 
-# create django project
+5] python manage.py test app1/tests                   # To run testcases 
