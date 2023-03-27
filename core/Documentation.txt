@@ -1,0 +1,13 @@
+## steps to run this project
+1]  install python on your system
+
+# create virtual environment using below command
+2]  py -m venv {environment_name}
+
+# Enter into env. 
+3]  environment_name/Scripts/activate
+
+# install all packages requires to run this project
+4]  pip install -r requirements.txt
+
+# create django project
